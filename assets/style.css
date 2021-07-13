@@ -21,14 +21,12 @@
   
   .navbar {
     padding: 32px;
-    border-bottom: 1px solid #1f1f1f;
     color: #fff;
     background-image: linear-gradient(to right, rgb(52,96,140), rgb(0,48,143));
   }
   
   #search-box {
     padding: 16px 32px;
-    border-right: 1px solid #1f1f1f;
   }
   
   #search-button {
@@ -37,7 +35,7 @@
 
   #search-button:hover {
     background-color: rgb(52,96,140);
-    border: #ADD8E6;
+    border: rgb(52,96,140);
     color: white;
   }
 
@@ -46,19 +44,16 @@
   }
 
   .list-group {
-    padding-top: 18px;
+    padding-top: 3.5vh;
   }
   
-  #weather-box {
-    padding: 32px;
+  #weather-box,  #city-box {
+    padding: 3vh;
   }
 
   #city-box {
     border: 1px solid #1f1f1f;
-    border-radius: 16px;
-    padding: 32px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+    border-radius: 10px;
     text-align: center;
     margin: 0 auto;
   }
@@ -69,13 +64,8 @@
   }
 
   .temp {
-    font-size: 3rem;
-    font-weight: bold;
-    font-family: "Oswald", sans-serif;
-  }
-  
-  .bold {
-    font-weight: bold;
+    font-size: 5em;
+    font-family: 'Bebas Neue', cursive;
   }
 
   #five-day-box {
@@ -95,12 +85,10 @@
   }
   
   .uvFavorable, .uvModerate, .uvSevere {
-    border: 1 px solid #1f1f1f;
     border-radius: 10px;
     background-color: lightgreen;
     width: fit-content;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 0 10px;
     margin: 0 auto;
   }
   
